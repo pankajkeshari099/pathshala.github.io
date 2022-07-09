@@ -1,0 +1,195 @@
+#header
+{
+  color:#fff;  
+  background:#3c6382;
+}
+#menu
+{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+#menu li{
+    display:inline-block;
+}
+#menu li a{
+    padding:21px 10px;
+    color:white;
+    display:block;
+    
+}
+a:hover{
+    text-decoration:none;
+}
+#menu li a:hover
+{
+background:#0a3d62;
+}
+#logo
+{
+    font-size:2rem;
+    margin-top:5px;
+}
+#pathshala
+{
+    border-radius: 50px;
+}
+
+
+
+
+
+#banner1
+{
+  background:url("../image/bookback.jpg");
+  background-size: cover;
+  height:700px;
+   padding-top:-2rem;    
+   color:red;
+}
+
+.banner-title 
+{
+    padding-top:12rem;
+    margin-left:-10rem;
+    width:400px;
+}
+.banner-title h1
+{
+    background-color:rgba(255,255,255,0.5);
+    display:inline-block;
+    padding:10px;
+    padding-bottom:10px;
+    margin:0;
+    margin-bottom:.10px;
+    font-size:1rem;
+}
+.banner-title p.lead
+{
+    color:#fff;
+    background:rgba(60,99,130,0.7);
+    padding:10px;
+    margin-bottom: 20.5rem;
+}
+#b
+{
+    width:200px;
+    height:200px;
+}
+
+
+
+
+/*book*/
+   h6
+  {
+    font-size: .8rem;
+   
+  }
+
+/*footersidebar*/
+
+  #footer-sidebar
+  {
+      color:#fff;
+      background-color:#40739e;
+      padding:20px 0px;
+  }
+
+  .footer-widget h4:after
+  {
+   content:"";
+   background:#fff;
+   display:block;
+   width:50px;
+   height:2px;
+   margin:5px 0;
+  }
+  .footer-widget a{
+      color:#fff;
+  }
+  .books-types
+  {
+      list-style: none;
+      padding:0;
+      margin:0;
+  }
+  .books-types li{
+      margin-bottom:3px;
+  }
+  
+  #footer
+  {
+    background-color:#0a3d62;
+    color:white;
+    padding-top: 2px ;
+    padding-bottom: 2px;
+
+  }
+  #f
+{
+  text-decoration: none;
+  color:white;
+}
+
+#fw
+{
+color:black;
+}
+
+
+
+/*
+responsive
+*/@media( max-width:768px)
+{
+#logo
+{
+  text-align: center;
+  margin:10px 0;
+  font-size:1.5rem ;
+  
+}
+#pathshala
+{
+  width:30px;
+  height:30px;
+}
+#menu
+{
+  text-align:center;
+  font-size:.8rem ;
+}
+
+#banner
+{
+  background-position: center;
+  background-size:cover;
+}
+.banner-title 
+{
+  padding:0;
+  margin:0;
+}
+  #book
+  {
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  .content
+  {
+    padding-bottom:10px;
+    text-align:center;
+  }
+}
+
+ @media( max-width:320px)
+{
+  #banner
+{
+  background-position: center;
+  background-size:cover;
+
+}
+}
+
